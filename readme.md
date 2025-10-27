@@ -88,8 +88,7 @@ The API uses **Token Authentication**.
 | GET | `/api/posts/` | List all posts (paginated) | ❌ |
 | POST | `/api/posts/` | Create a new post | ✅ |
 | GET | `/api/posts/<id>/` | Retrieve a post | ❌ |
-| PUT/PATCH | `/api/posts/<id>/` | Update a post | ✅ |
-| DELETE | `/api/posts/<id>/` | Delete a post | ✅ |
+| POST | `/api/posts/<id>/comments` | Create a comment | ✅ |
 
 #### Example Response (`GET /api/posts/`)
 ```json
