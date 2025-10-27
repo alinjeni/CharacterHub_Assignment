@@ -40,8 +40,8 @@ This project implements an API endpoint for an **infinite scrolling posts feed**
 
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
-   cd <project_directory>
+   git clone https://github.com/alinjeni/CharacterHub_Assignment.git
+   cd backend_repo
    ```
 
 2. Set up a virtual environment:
@@ -140,4 +140,60 @@ random_comments = obj.comments.order_by('?')[:3]
 ---
 
 
-# Frontend - 
+# Frontend - Movie Explorer
+
+A responsive Vue.js web application that displays detailed information about movies, including cast, genres, and production details. It provides a clean layout optimized for both desktop and mobile views.
+
+## Features
+
+- Dynamic movie detail display
+- Organized layout for improved readability
+- Clean and maintainable Vue.js components
+
+## Tech Stack
+
+- **Frontend:** Vue.js 3, HTML5, CSS3
+- **Styling:** Tailwind CSS / Custom CSS
+- **Build Tool:** Vite
+
+## Project Structure
+
+```
+src/
+├── components/
+│   └── MovieDetail.vue
+├── assets/
+│   └── images/
+├── App.vue
+├── main.js
+└── router.js
+```
+
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/alinjeni/CharacterHub_Assignment.git
+   cd my-movie-app
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+## Responsive Design
+
+- Desktop layout uses a grid for structured viewing.
+- Mobile layout centers movie images and adjusts font sizes for readability.
+
+## Future Enhancements
+
+- Add movie search functionality.
+- Implement user favorites/bookmarks.
+- Integrate an external API.
